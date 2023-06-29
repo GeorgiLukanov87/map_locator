@@ -6,9 +6,6 @@ from .forms import SearchForm
 import folium
 
 
-# Create your views here.
-
-
 def index(request):
     if request.method == 'POST':
         form = SearchForm(request.POST)
@@ -27,7 +24,7 @@ def index(request):
         return HttpResponse('You address input is invalid')
 
     # Create Map Object
-    m = folium.Map(location=[19, -12], zoom_start=2)
+    m = folium.Map(location=[50, 10], zoom_start=3)
 
     folium.Marker([lat, lng], tooltip='Click for more',
                   popup=country).add_to(m)
