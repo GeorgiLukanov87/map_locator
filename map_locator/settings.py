@@ -18,6 +18,7 @@ INSTALLED_APPS = [
 
     'map_locator.map',
     'crispy_forms',
+    'map_locator.weather',
 ]
 
 MIDDLEWARE = [

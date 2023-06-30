@@ -123,7 +123,8 @@ def index(request):
     ).add_to(m)
 
     folium.Marker(
-        [38.63302766463128, 0.0799648759705084], popup="<i>Mirador de Carabiners,Calp LOCATION:</i>", tooltip=tooltip
+        [38.63302766463128, 0.0799648759705084],
+        popup="<i>Mirador de Carabiners,Calp LOCATION: 38.63302766463128, 0.0799648759705084</i>", tooltip=tooltip
     ).add_to(m)
 
     folium.Marker(
@@ -152,6 +153,54 @@ def index(request):
     folium.Marker(
         [37.63849350755914, -0.6898687347156615],
         popup="<i>Cabo de Palos LOCATION: 37.63849350755914, -0.6898687347156615</i>",
+        tooltip=tooltip
+    ).add_to(m)
+
+    folium.Marker(
+        [38.68341234023039, 1.3834594143141126],
+        popup="<i>Cava Rosa,Ibiza LOCATION: 38.68341234023039, 1.3834594143141126</i>",
+        tooltip=tooltip
+    ).add_to(m)
+
+    folium.Marker(
+        [38.662563668116775, 1.5160095552553137],
+        popup="<i>Calo Des Mort,Ibiza LOCATION: 38.662563668116775, 1.5160095552553137</i>",
+        tooltip=tooltip
+    ).add_to(m)
+
+    folium.Marker(
+        [38.989054204357984, 1.5803523663621162],
+        popup="<i>Punta Arabi,Ibiza LOCATION: 38.989054204357984, 1.5803523663621162</i>",
+        tooltip=tooltip
+    ).add_to(m)
+
+    folium.Marker(
+        [39.31249918933522, 3.0102702587109396],
+        popup="<i>Platja es Carbó,Palma de Mallorca LOCATION: 39.31249918933522, 3.0102702587109396</i>",
+        tooltip=tooltip
+    ).add_to(m)
+
+    folium.Marker(
+        [39.71888661053757, 3.4780274254776384],
+        popup="<i>Far de Capdepera,Palma de Mallorca LOCATION: 39.71888661053757, 3.4780274254776384</i>",
+        tooltip=tooltip
+    ).add_to(m)
+
+    folium.Marker(
+        [39.86690267114882, 3.1357784374183257],
+        popup="<i>Platja de Sa Font de Sant Joan,Palma de Mallorca LOCATION: 39.86690267114882, 3.1357784374183257</i>",
+        tooltip=tooltip
+    ).add_to(m)
+
+    folium.Marker(
+        [39.891079105970235, 0.66605886297522077],
+        popup="<i>Illa Ferrera,Islas Columbretes LOCATION: 39.891079105970235, 0.6660588629752207</i>",
+        tooltip=tooltip
+    ).add_to(m)
+
+    folium.Marker(
+        [39.898594176945195, 0.6839795508724174],
+        popup="<i>Reserva natural de les Illes Columbretes LOCATION: 39.898594176945195, 0.6839795508724174</i>",
         tooltip=tooltip
     ).add_to(m)
 
