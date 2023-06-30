@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,12 +7,15 @@
 
 </head>
 <body>
+<a href="{% url 'index' %}">Back to Map</a>
 
 <form method="post">
+
   {% csrf_token %}
   <input type="text" name="city1" placeholder="Enter city 1">
   <input type="text" name="city2" placeholder="Enter city 2">
   <button type="submit">Compare Weather</button>
+
 </form>
 
 <div class="comparison-container">
